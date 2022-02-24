@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MoMik&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2019-12-04T08:28:40.651Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>MoMik</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>秒杀系统设计</title>
+    <link href="/2019/12/04/%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
+    <id>/2019/12/04/秒杀系统设计/</id>
+    <published>2019-12-04T08:27:24.000Z</published>
+    <updated>2019-12-04T08:28:40.651Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;秒杀需要解决的问题&quot;&gt;&lt;a href=&quot;#秒杀需要解决的问题&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派驱动的b站直播点播台依赖安装</title>
+    <link href="/2019/11/06/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%A9%B1%E5%8A%A8%E7%9A%84b%E7%AB%99%E7%9B%B4%E6%92%AD%E7%82%B9%E6%92%AD%E5%8F%B0%E4%BE%9D%E8%B5%96%E5%AE%89%E8%A3%85/"/>
+    <id>/2019/11/06/树莓派驱动的b站直播点播台依赖安装/</id>
+    <published>2019-11-06T10:07:59.000Z</published>
+    <updated>2019-11-06T10:41:11.151Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;pip install colorlog&lt;/p&gt;
+&lt;p&gt;pip install mutagen&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; No such file or directory:
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>错误码设计方案</title>
+    <link href="/2019/07/19/%E9%94%99%E8%AF%AF%E7%A0%81%E8%AE%BE%E8%AE%A1%E6%96%B9%E6%A1%88/"/>
+    <id>/2019/07/19/错误码设计方案/</id>
+    <published>2019-07-19T09:37:18.000Z</published>
+    <updated>2019-07-19T09:37:09.408Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;纯错误码-ABBBBCCCC&quot;&gt;&lt;a href=&quot;#纯错误码-ABBBBCCCC&quot; class=&quot;headerlink&quot; title=&quot;#纯错误码:ABBBBCCCC&quot;&gt;&lt;/a&gt;#纯错误码:ABBBBCCCC&lt;/h2&gt;&lt;ul&gt;
+&lt;li
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用Spring cloud oauth2时一些问题汇总</title>
+    <link href="/2019/07/05/%E4%BD%BF%E7%94%A8Spring-cloud-oauth2%E6%97%B6%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+    <id>/2019/07/05/使用Spring-cloud-oauth2时一些问题汇总/</id>
+    <published>2019-07-05T14:19:37.000Z</published>
+    <updated>2019-08-12T09:05:55.437Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;一开始使用client模式在浏览器进行访问（GET）&lt;/p&gt;
+&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>记一次Data truncation: Out of range value for column</title>
+    <link href="/2019/07/01/%E8%AE%B0%E4%B8%80%E6%AC%A1Data%20truncation:%20Out%20of%20range%20value%20for%20column/"/>
+    <id>/2019/07/01/记一次Data truncation: Out of range value for column/</id>
+    <published>2019-07-01T10:27:18.000Z</published>
+    <updated>2019-07-08T01:36:32.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天客户方在使用程序时保存报错，根据他提供的信息来讲始终只有那一条数据保存不进去，具体报的什么错不管是日志还是前端展示上都没有明确体现（这款程序很老先不说，代码写的也贼乱，跑这个项目mac散热飞起…）。所以只能通过数据和调试程序寻找原因了。。。&lt;/p&gt;
+&lt;p&gt;1、查询数据库
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jvm学习笔记-类加载机制</title>
+    <link href="/2019/06/30/jvm/jvm%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6/"/>
+    <id>/2019/06/30/jvm/jvm学习笔记-类加载机制/</id>
+    <published>2019-06-30T04:55:17.000Z</published>
+    <updated>2019-07-08T01:36:32.867Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;加载、&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+      <category term="jvm学习笔记" scheme="/categories/jvm%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>jvm学习笔记(一)</title>
+    <link href="/2019/06/26/jvm/jvm%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89/"/>
+    <id>/2019/06/26/jvm/jvm学习笔记（一）/</id>
+    <published>2019-06-26T05:14:16.000Z</published>
+    <updated>2019-06-26T05:28:12.816Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;相关术语单词&quot;&gt;&lt;a href=&quot;#相关术语单词&quot; class=&quot;headerlink&quot; title=&quot;相关术语单词&quot;&gt;&lt;/a&gt;相关术语单词&lt;/h3&gt;&lt;p&gt;Deployment Technologles 部署技术&lt;/p&gt;
+&lt;p&gt;User Interface
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Netty学习一</title>
+    <link href="/2019/06/06/netty/Netty%E5%AD%A6%E4%B9%A0%E4%B8%80/"/>
+    <id>/2019/06/06/netty/Netty学习一/</id>
+    <published>2019-06-06T06:40:16.000Z</published>
+    <updated>2019-07-02T01:58:50.278Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Channel &lt;/p&gt;
+&lt;p&gt;1、线程安全&lt;/p&gt;
+&lt;p&gt;Nio&lt;/p&gt;
+&lt;p&gt;1、基于java
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Kafka学习笔记</title>
+    <link href="/2019/05/09/Kafka%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>/2019/05/09/Kafka学习笔记/</id>
+    <published>2019-05-09T02:41:22.000Z</published>
+    <updated>2019-05-09T02:41:42.574Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;kafka节点之间如何复制备份的？&lt;/li&gt;
+&lt;li&gt;kafka消息是否会丢失？为什么？&lt;/li&gt;
+&lt;li&gt;kafka最合理的配置是什么？&lt;/li&gt;
+&lt;li&gt;kafka的leader选举机制是什么？&lt;/li&gt;
+&lt;li&gt;kafka对硬件的配置有什么要求？&lt;/li&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>那些有趣的注释，有没有你曾用过的</title>
+    <link href="/2019/04/28/%E9%82%A3%E4%BA%9B%E6%9C%89%E8%B6%A3%E7%9A%84%E6%B3%A8%E9%87%8A%EF%BC%8C%E6%9C%89%E6%B2%A1%E6%9C%89%E4%BD%A0%E6%9B%BE%E7%94%A8%E8%BF%87%E7%9A%84/"/>
+    <id>/2019/04/28/那些有趣的注释，有没有你曾用过的/</id>
+    <published>2019-04-28T05:55:13.000Z</published>
+    <updated>2019-04-28T06:10:42.540Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;第一款：佛祖保佑，永无BUG&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;//                            _ooOoo_    
+//                           o8888888o    
+//                   
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用lombok时需要注意的地方</title>
+    <link href="/2019/04/28/%E4%BD%BF%E7%94%A8lombok%E6%97%B6%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E5%9C%B0%E6%96%B9/"/>
+    <id>/2019/04/28/使用lombok时需要注意的地方/</id>
+    <published>2019-04-28T03:54:40.000Z</published>
+    <updated>2019-04-28T05:05:55.189Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;集成父类时出现如下警告&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Warning:(16, 1) java: Generating equals/hashCode implementation but without a call to superclass, even though
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>架构师成长之路</title>
+    <link href="/2019/04/26/%E6%9E%B6%E6%9E%84%E5%B8%88%E6%88%90%E9%95%BF%E4%B9%8B%E8%B7%AF/"/>
+    <id>/2019/04/26/架构师成长之路/</id>
+    <published>2019-04-26T10:12:24.000Z</published>
+    <updated>2019-05-09T01:39:38.888Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;http://wx1.sinaimg.cn/large/0069lHOigy1g2utd9u4iuj30hs0br3zn.jpg&quot; alt&gt;&lt;br&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot集成Netty实现百万级的消息推送系统</title>
+    <link href="/2019/04/26/SpringBoot%E9%9B%86%E6%88%90Netty%E5%AE%9E%E7%8E%B0%E7%99%BE%E4%B8%87%E7%BA%A7%E7%9A%84%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81%E7%B3%BB%E7%BB%9F/"/>
+    <id>/2019/04/26/SpringBoot集成Netty实现百万级的消息推送系统/</id>
+    <published>2019-04-26T09:58:35.000Z</published>
+    <updated>2019-04-26T10:11:57.341Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>POI导出服务设计</title>
+    <link href="/2019/04/26/POI%E5%AF%BC%E5%87%BA%E6%9C%8D%E5%8A%A1%E8%AE%BE%E8%AE%A1/"/>
+    <id>/2019/04/26/POI导出服务设计/</id>
+    <published>2019-04-26T09:57:53.000Z</published>
+    <updated>2019-04-26T10:33:27.073Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h3&gt;&lt;p&gt;先让我吐槽3分钟…&lt;br&gt;今天项目经理给我建了一个JIRA”参考其他功能代码编写某某功能的PPT导出” 额
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>安利一个使用Java开发的爬虫项目</title>
+    <link href="/2019/04/26/%E5%AE%89%E5%88%A9%E4%B8%80%E4%B8%AA%E4%BD%BF%E7%94%A8Java%E5%BC%80%E5%8F%91%E7%9A%84%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE/"/>
+    <id>/2019/04/26/安利一个使用Java开发的爬虫项目/</id>
+    <published>2019-04-26T09:47:07.000Z</published>
+    <updated>2019-04-26T10:52:02.907Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h3&gt;&lt;p&gt;这个项目是用来负责汇集目标站点信息，便于大家查看、订阅（主要用来采“碍事碍事R”）&lt;br&gt;大致看了下代码写的还不错可以用来当做学习项目参考。&lt;br&gt;具体代码实现等我有空写个解析篇吧&lt;/p&gt;
+&lt;h2 id&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title&gt;&lt;/a&gt;
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MyBatis 通用 Mapper详解</title>
+    <link href="/2019/04/26/MyBatis%20%E9%80%9A%E7%94%A8%20Mapper%E8%AF%A6%E8%A7%A3/"/>
+    <id>/2019/04/26/MyBatis 通用 Mapper详解/</id>
+    <published>2019-04-26T09:47:07.000Z</published>
+    <updated>2019-04-26T10:17:16.090Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;参考：&lt;a href=&quot;https://mapperhelper.github.io/docs/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Heroku云平台部署站点</title>
+    <link href="/2019/04/26/Heroku%E4%BA%91%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E7%AB%99%E7%82%B9/"/>
+    <id>/2019/04/26/Heroku云平台部署站点/</id>
+    <published>2019-04-26T09:33:43.000Z</published>
+    <updated>2019-04-26T09:38:32.280Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h3&gt;&lt;p&gt;最近在搞这个博客建设中经常要爬墙，每次都要到不同网站获取
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基于Redis分布式锁的实现</title>
+    <link href="/2019/04/26/%E5%9F%BA%E4%BA%8ERedis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
+    <id>/2019/04/26/基于Redis分布式锁的实现/</id>
+    <published>2019-04-26T09:32:48.000Z</published>
+    <updated>2019-04-26T10:28:29.305Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;首先，为了确保分布式锁可用，我们至少要确保锁的实现同时满足以下四个条件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;互斥性。在任意时刻，只有一个客户端能持有锁。&lt;/li&gt;
+&lt;li&gt;不会发生死锁。即使有一个客户端在持有锁的期间崩溃而没有主动解锁，也能保证后续其他客户端能加锁。&lt;/li&gt;
+&lt;l
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>安装Vue教程</title>
+    <link href="/2019/04/26/%E5%AE%89%E8%A3%85Vue%E6%95%99%E7%A8%8B/"/>
+    <id>/2019/04/26/安装Vue教程/</id>
+    <published>2019-04-26T09:29:22.000Z</published>
+    <updated>2019-04-26T09:32:26.437Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;安装VUE之前需要先安装NODE.JS&lt;br&gt;按照下面的顺序执行即可初始化启动一个基本VUE项目&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;// 安装node.js，内含npm，Node.js官网：https://nodejs.org/en/ 。
+
+//
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 16.04 升级Python3.x</title>
+    <link href="/2019/04/26/Ubuntu%2016.04%20%E5%8D%87%E7%BA%A7Python3.x/"/>
+    <id>/2019/04/26/Ubuntu 16.04 升级Python3.x/</id>
+    <published>2019-04-26T09:29:22.000Z</published>
+    <updated>2019-04-26T10:26:16.606Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;序言&quot;&gt;&lt;a href=&quot;#序言&quot; class=&quot;headerlink&quot; title=&quot;序言&quot;&gt;&lt;/a&gt;序言&lt;/h2&gt;&lt;p&gt;有个项目需要Python3.5&lt;br&gt;我的服务器系统是Ubuntu 16.04
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+</feed>
